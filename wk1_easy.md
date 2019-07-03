@@ -20,25 +20,19 @@ balanced("x") => false
 
 ## Reference Implementation
 
+```py
+def balanced(word):
+  return word.count('x') == word.count('y')
+```
+
+## Featured Solutions
+
 ```clojure
 (defn balanced [letters] 
     (let [freqs (frequencies (char-array letters))]
         (= (get freqs \x) (get freqs \y))))
 ```
 
-## Featured Solutions
-
-### Python
-```py
-def balanced(word):
-
-  if word.count('x') == word.count('y'):
-    return True
-  else:
-      return False
-```
-
-### Java
 ```java
 public static Boolean balanced(String input)
 {
