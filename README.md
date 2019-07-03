@@ -4,7 +4,4 @@ Weekly Programming Challenge submissions for 2019.
 
 ## Submissions
 
-| Week | Link |
----------------
-| Week 1 | [Link](https://github.com/vasilescur/GE-Programming-Challenges/blob/master/week-1.md) |
------------------
+- Week 1 - [Link](https://github.com/vasilescur/GE-Programming-Challenges/blob/master/week-1.md)
